@@ -6,9 +6,9 @@ layout: feed
 
 	<title>Homepage Links</title>
 	<link href="http://jayceechapman.github.io/homework/atom.xml" rel="self"/>
-	<link href="http://jayceechapman.github.io/blog"/>
+	<link href="http://jayceechapman.github.io/homework"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://NAME.github.io/blog</id>
+	<id>http://jayceechapman.github.io/homework</id>
 	<author>
 	</author>
 
@@ -17,7 +17,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://jayceechapman.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://NAME.github.io{{ post.id }}</id>
+			<id>http://jayceechapman.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
