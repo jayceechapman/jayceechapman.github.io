@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe_spread>
+    <title>Apple Frangipane Tart</title>
+    <body><column number="1">
+        <recipe>
+            <header>Ingredients</header>
+            <item number="1">3/4 cup almond meal</item>
+            <item number="2">1 1/2 tbsp plain flour</item>
+            <item number="3">1/4 cup sugar</item>
+            <item number="4">50g unsalted butter</item>
+            <item number="5">1 large egg</item>
+            <item number="6">1/2 tsp vanilla extract</item>
+            <item number="7">2 sheets of puff pastry</item>
+            <item number="8">2 to 3 applies sliced</item>
+            <item number="9">extra butter melted and 1 tbsp sugar</item>
+        </recipe>
+        <instructions>
+            <paragraph number="1">Preheat the oven to 200°C. Place the pastry on a lined oven tray to thaw. Cut 1 sheet into 4 squares and prick all over with a fork to stop it puffing up too much and other one I choose to have it as a round circle.</paragraph>
+        </instructions>
+    </column>
+    <column number="2">
+        <instructions>
+            <paragraph number="2">For frangipane filling, cream the sugar and butter together until light. Add egg and mix to combine. Finally add the almonds, extract to combine.</paragraph>
+            <paragraph number="3">Spread the frangipane evenly into the puff pastry sheets leaving 1 cm from the edges. Arrange the apples slices in a pretty petal pattern.</paragraph>
+            <paragraph number="4">Brush with melted butter and sprinkle with the extra sugar. Bake for about 20-25 minutes till the pastry is puffed and golden around the edges. Drizzle with honey and serve with dollop of double cream</paragraph>
+        </instructions>
+    </column></body>
+    <blurb>
+        <recipe_review>The sweet frangipane filling with almonds is a lovely addition and really brings these little tarts to a whole new flavour level.</recipe_review>
+        <review_author>Shibani - Pearlsofeast</review_author>
+    </blurb>
+</recipe_spread>
