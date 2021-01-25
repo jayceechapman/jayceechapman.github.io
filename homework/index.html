@@ -7,6 +7,6 @@ title: "Homework page"
 
 	  {% for post in site.homework %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ jayceechapman.github.io/homework/mobydick.xml }}" title="{{ mobydick.xml }}">{{ mobydick.xml }}</a>
-		<br><span>{{ post.date | date_to_string }}</span> » <a href="{{ jayceechapman.github.io/homework/recipe.xml }}" title="{{ recipe.xml }}">{{ recipe.xml }}</a></li>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{ jayceechapman.github.io/homework/recipe.xml }}" title="{{ recipe.xml }}">{{ recipe.xml }}</a></li>
 	  {% endfor %}
 	</ul>
