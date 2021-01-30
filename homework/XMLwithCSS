@@ -1,0 +1,15 @@
+* {
+    display:block;
+}
+lb {
+    line-height:20px;
+}
+[rendition~="#center"] {
+    text-align: center;
+}
+
+[rendition~="x-large"] {
+    font-size:200px
+}
+
+space[quantity="1"] {padding:10px;}
