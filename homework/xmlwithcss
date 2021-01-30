@@ -6,12 +6,51 @@
 lb {
     line-height:20px;
 }
-[rendition~="#center"] {
+[rendition~="#x-large #uppercase"] {
+    font-size: 200 px;
     text-align: center;
+    text-color: black;
 }
-
-[rendition~="x-large"] {
-    font-size:200px
+lb {
+[rendition~="#small #uppercase"] {
+    font-size:100px;
+    text-color: black;
 }
 
 space[quantity="1"] {padding:10px;}
+
+<titlePage>
+    <docTitle rendition="#center">
+        <titlePart type="main">
+            <hi rendition="#x-large #uppercase">The Poems</hi>
+            <lb/>
+            <space dim="vertical" unit="line" quantity="1"/>
+            <hi rendition="#small #uppercase">of</hi>
+            <lb/>
+            <space dim="vertical" unit="line" quantity="1"/>
+            <hi rendition="#red #xx-large #uppercase">Algernon Charles Swinburne</hi>
+            <lb/>
+            <space dim="vertical" unit="line" quantity="3"/>
+            <hi rendition="#large #uppercase">In Six Volumes</hi>
+            <space dim="vertical" unit="line" quantity="4"/>
+        </titlePart>
+        <lb/>
+        <titlePart rendition="#uppercase" type="main">
+            Volume I.
+            <lb/>
+            <space dim="vertical" unit="line" quantity="1"/>
+            <hi rendition="#red #x-large">Poems and Ballads</hi>
+            <lb/>
+            <space dim="vertical" unit="line" quantity="1"/>
+            First Series
+            <space dim="vertical" unit="line" quantity="5"/>
+        </titlePart>
+    </docTitle>
+    <docImprint rendition="#center #uppercase">
+        <pubPlace>London</pubPlace>
+        <lb/>
+        <publisher rendition="#red #expanded">Chatto &amp; Windus</publisher>
+        <lb/>
+        <docDate when="1904" rendition="#small"/>
+    </docImprint>
+</titlePage>
