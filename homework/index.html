@@ -6,10 +6,10 @@ title: "Homework page"
 	<ul class="posts">
 		<a href="mobydick.xml">mobydick.xml</a><br></br>
 <a href="recipe.xml">recipe.xml</a><br></br>
-		<a href="xmlwithcss">xmlwithcss</a>
+		<a href="xmlwithcss/css">xmlwithcss</a>
 	  {% for post in site.homework %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ /mobydick.xml }}" title="{{ mobydick.xml }}">{{ mobydick.xml }}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{ /recipe.xml }}" title="{{ recipe.xml }}">{{ recipe.xml }}</a></li>
-	  <span>{{ post.date | date_to_string }}</span> » <a href="{{ /xmlwithcss }}" title="{{ xmlwithcss }}">{{ xmlwithcss }}</a></li>
+	  <span>{{ post.date | date_to_string }}</span> » <a href="{{ /xmlwithcss/css }}" title="{{ xmlwithcss }}">{{ xmlwithcss }}</a></li>
 {% endfor %}
 	</ul>
