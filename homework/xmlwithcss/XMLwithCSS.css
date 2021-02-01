@@ -10,7 +10,7 @@
 
  @font-face {
     font-family: 'rough_typewriter';
-    src: url('rough_typewriter.otf') format('opentype');
+    src: url("rough_typewriter.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
