@@ -10,7 +10,7 @@
 
  @font-face {
     font-family: 'aflfont';
-    src: url("aflfont.ttf") format("opentype");
+    src: url("aflfont.ttf") format("woff");
     font-weight: normal;
     font-style: normal;
 }
