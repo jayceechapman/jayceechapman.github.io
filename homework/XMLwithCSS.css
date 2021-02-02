@@ -23,6 +23,7 @@
 [rendition~="#xx-large"] {
     font-size: 200%;
     color: black;
+    font-family:'amertype_md_btmedium';
 }
 [rendition="#small #uppercase"] {
      font-size: 80%;
@@ -31,15 +32,18 @@
 publisher {
     font-size:140%;
     color:red;
+    font-family: 'optimusprincepsregular';
 }
 
 [rendition~="#xx-large"] {
     font-size: 200%;
-    color:red
+    color:red;
+    font-family: 'optimusprincepsregular';
 }
 [rendition="#red #x-large"] {
     font-size:140%;
     color:red;
+    font-family: 'optimusprincepsregular';
 }
  [dim="vertical"] {
   display: block;
