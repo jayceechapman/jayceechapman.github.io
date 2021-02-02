@@ -25,17 +25,14 @@
 
 [rendition="#x-large #uppercase"] {
     font-size:160%;
-    font-family:'amertype_md_btmedium';
 }
 
 [rendition~="#xx-large"] {
     font-size: 200%;
     color: black;
-    font-family:'amertype_md_btmedium';
 }
 [rendition="#small #uppercase"] {
      font-size: 80%;
-    font-family:'amertype_md_btmedium';
 }
 publisher {
     font-size:140%;
@@ -60,18 +57,15 @@ publisher {
 [when~="1904"] {
     display:block;
     line-height:30px;
-    font-family:'amertype_md_btmedium';
 }
 [rendition~="#large"] {
      font-size:110%;
      line-height:200px;
-    font-family:'amertype_md_btmedium';
 }
 pubPlace {
     display:block;
     line-height:40px;
     margin-top:150px;
-    font-family:'amertype_md_btmedium';
 }
 
 [rendition~="#expanded"] {
