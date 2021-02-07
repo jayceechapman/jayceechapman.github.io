@@ -1,0 +1,40 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
+    <xsl:template match="/homework3">
+        <html>
+            <body>
+                <h2>*~Plant Catalog~*</h2>
+                <table border="1">
+                    <tr bgcolor="#9acd32">
+                        <th>COMMON</th>
+                        <th>BOTANICAL</th>
+                        <th>ZONE</th>
+                        <th>LIGHT</th>
+                        <th>PRICE</th>
+                        <th>AVAILABILITY</th>
+                    </tr>
+                    <xsl:for-each select="PLANT">
+                        <xsl:sort select="COMMON"/>
+                        <tr>
+                            <td><xsl:value-of select="COMMON"/>Bloodroot</td>
+                            <td><xsl:value-of select="BOTANICAL"/>Sanguinaria canadensis</td>
+                            <td><xsl:value-of select="ZONE"/>4</td>
+                            <td><xsl:value-of select="LIGHT"/>Mostly Shady</td>
+                            <td><xsl:value-of select="PRICE"/>$2.44</td>
+                            <td><xsl:value-of select="AVAILABILITY"/>031599</td>
+                        </tr>
+                        <tr>
+                            <td><xsl:value-of select="COMMON"/>Columbine</td>
+                            <td><xsl:value-of select="BOTANICAL"/>Aquilegia canadensis</td>
+                            <td><xsl:value-of select="ZONE"/>3</td>
+                            <td><xsl:value-of select="LIGHT"/>Mostly Shady</td>
+                            <td><xsl:value-of select="PRICE"/>$9.37</td>
+                            <td><xsl:value-of select="AVAILABILITY"/>030699</td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+             
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
